@@ -342,5 +342,13 @@ cat /data/sensetime/senselink/log/link/senselink.log | grep -i error
 | :-----------------: | :-----: | :-------: |
 | sltvChk.server.port |  9000   |   9100    |
 |   lcm.insideopen    |    0    |     1     |
+|                     |         |           |
 
 
+**==XID500_USB_FW Update==**
+![[XID500_USB_FW업데이트_231116.pdf]]
+
+- USB 권장사항은 32GByte 이하 FAT32로 포맷된 USB를 사용해 주십시오. 
+- 32GByte 이하 USB가 없으시면 가능하면 용량이 작은 USB를 사용해 주십시오. 
+- usb "firmware_update"  경로에 첨부 모든 파일을 넣어 주세요 (app.ext4, data.ext4 ... )
+- 펌웨어 업데이트시 단말기의 설정, 로그 등은 공장 출하상태로 초기화 됩니다. 
