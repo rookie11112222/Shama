@@ -210,3 +210,25 @@
  - 应用场景:监控室，指挥室，调度室
 
 ➣ 分配器 -> 矩阵 -> 解码器 -> 处理器
+
+
+**==DID说明书==**
+➣ 彩页
+[[49寸3.5 普亮-49VL5G彩页（中文） (1).pdf]]
+
+➣ 说明书(中文)
+[[MFL71785204_REV00.pdf]]
+
+➣ 说明书(英文)
+[[49VL5G-M ENG.pdf]]
+
+
+CO/CA CCCG验收资料
+➣ CO
+[[LGD CO법인 CGSS CCSS IPWall 구축_20221114.pptx]]
+
+➣ CA
+[[LGD CA법인 CGSS CCSS IPWall 구축_20221114.pptx]]
+
+
+

@@ -507,3 +507,29 @@ delete from [SGP].[SGP].[TN_CMS_ABNOR_RECEIVER_GROUP_N] where RECEIVER_GROUPNAME
 4. **登录进#2的SC网页→SYSTEM MANAGEMENT**
 5. **点击Action里的시작，稍等一下**
 - 虽然网页显示为stopped，但其实是运行状态
+
+
+**==Oracle DB邮件发送==**
+1. **打开dbeaver软件**
+2. **输入以下调用语句发送测试邮件**
+```
+DECLARE p_to VARCHAR2(50):= "chengyingxu@lgdpartner.com"
+p_from VARCHAR2(50):= "chengyingxu@lgcns.com"
+p_subject VARCHAR2(50):= "test"
+p_text_msg VARCHAR2(50):= "test123123"
+p_html_msg CLOB
+
+BEGIN sp_send_mail (
+	p_to,
+	p_from,
+	p_subject,
+	p_text_msg,
+	p_html_msg
+);
+END;
+```
+- p_to: 收信人
+- p_from: 发信人，可为空
+- p_subject: 邮件标题
+- p_text_msg: 邮件正文内容
+- VARCHAR2(50): VARCHAR2数据类型不能变，括号内的可以根据字符长度变更

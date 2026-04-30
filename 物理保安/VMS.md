@@ -750,3 +750,21 @@ xfs_repair -L /dev/mapper/mpathc
 ★ **批量更新导致VMS Manager服务Down**
 1. **服务里确认VMS服务相关服务是否开启，如没有开启则开启**
 - 不要几千个一起弄!!!
+
+
+**==摄像头彩页==**
+➣ EV Dome
+[[2CD2526FWD.pdf]]
+
+➣ Box
+[[DS-2CD7A27EWD系列.pdf]]
+
+➣ Dome
+[[DS-2DE2204IW.pdf]]
+
+➣ Speed Dome
+[[iDS-2DF8432IXR-A(T5).pdf]]
+
+➣ WiFi CCTV(Axis)
+[[M1045-LW datasheet.pdf]]
+
